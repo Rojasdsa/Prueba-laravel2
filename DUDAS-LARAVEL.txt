@@ -1,0 +1,21 @@
+Si el proyecto da error prueba estos pasos.
+
+>>>>>>>>>>>>>   Instala composer
+
+composer install
+
+>>>>>>>>>>>>>   Renombra .env.example a .env
+
+mv .env.example .env
+
+>>>>>>>>>>>>>   Limpia la caché
+
+php artisan cache:clear
+
+>>>>>>>>>>>>>   Volca los archivos de autocarga
+
+composer dump-autoload
+
+>>>>>>>>>>>>>   Genera una clave
+
+php artisan key:generate
