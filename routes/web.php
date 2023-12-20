@@ -17,11 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
 
-Route::get('/2', function () {
+Route::get('/who', function () {
     return view('who');
 })->name('who');
 
-Route::get('cliente/{id?}', function ($numero = 1) {
-    return('número de la URL: ' . $numero);
+
+Route::get('/project', function () {
+    return view('project');
 })->name('project');
 
+Route::get('/project/{id?}', function ($numero = 1) {
+    return('número de la URL: ' . $numero);
+})->name('project');

@@ -18,6 +18,7 @@
 {{-- Mensaje bienvenida --}}
 @section('welcome')
     <div class="container-fluid">
+        <br>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate molestiae vel non? Eos, suscipit neque quis
             iure eligendi reiciendis sed error? Quae enim suscipit ab, recusandae accusamus molestias aut nostrum.</p>
     </div>
@@ -46,3 +47,6 @@
         </div>
     </footer>
 @endsection
+
+{{-- Body --}}
+@section('cuerpo')

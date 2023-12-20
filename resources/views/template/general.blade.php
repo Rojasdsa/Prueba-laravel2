@@ -11,9 +11,9 @@
 <body>
     @yield('titulo-body')
 
-    @yield('welcome')
-
     @yield('nav')
+
+    @yield('welcome')
 
     @yield('cuerpo')
 
